@@ -1,0 +1,4 @@
+/home/optical/my_demo/yolov3/build/CMakeFiles/edit_cache.dir
+/home/optical/my_demo/yolov3/build/CMakeFiles/rebuild_cache.dir
+/home/optical/my_demo/yolov3/build/CMakeFiles/yoloplugin.dir
+/home/optical/my_demo/yolov3/build/CMakeFiles/project.dir
