@@ -7,5 +7,18 @@
 - Cuda 10.0
 ------
 ### Start Using:
-&ensp;&ensp;Get the [model](https://pan.baidu.com/s/1XNRdyEPsD8_MA5wlRV1rNQ)pre-prepared model，and place it in model file，
+&ensp;&ensp;Get the [pre-prepared model](https://pan.baidu.com/s/1XNRdyEPsD8_MA5wlRV1rNQ)，the key is 9i1r, and place it in model file.
+&ensp;&ensp;Building this repo:
+```
+cd build
+cmake ..
+make
+```
+&ensp;&ensp;Start run:
+```
+cd ..
+cd ./infer
+sudo ./project -getengine -int8
+sudo ./projet -inference ../test_data
+```
 
