@@ -7,5 +7,5 @@
 - Cuda 10.0
 ------
 ### Start Using:
-
+&ensp;&ensp;Get the [model](https://pan.baidu.com/s/1XNRdyEPsD8_MA5wlRV1rNQ)pre-prepared model，and place it in model file，
 
