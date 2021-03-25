@@ -25,7 +25,7 @@ sudo ./project -getengine -int8
 sudo ./projet -inference ../test_data
 ```
 ------
-&ensp;&ensp;Using -int8,-fp16,-fp32 to select the appropriate inference precision,and if chosed int8,Prepare appropriate calibration data and place it in calid_data file.Additional functionality can be extended by referring to the TensorRT plugin implementation.
+&ensp;&ensp;Using -int8,-fp16,-fp32 to select the appropriate inference precision,and if chosed int8,Prepare appropriate calibration data and place it in calid_data file.In int8 1080P image is need 4ms.Additional functionality can be extended by referring to the TensorRT plugin implementation.
 
 
 
