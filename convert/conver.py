@@ -12,7 +12,7 @@ else:  # darknet format
     load_darknet_weights(model, weights)
 model = model.eval()
 
-f = open('yolov3.wts', 'w')
+f = open('yolov3.txt', 'w')
 f.write('{}\n'.format(len(model.state_dict().keys())))
 for k, v in model.state_dict().items():
     vr = v.reshape(-1).cpu().numpy()
